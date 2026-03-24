@@ -1,48 +1,79 @@
-📊 EverPeak Retail Analysis – Sprint 6
-Este repositorio contiene el flujo de trabajo completo para el análisis de calidad y limpieza del caso EverPeak–SilverBasket. El proyecto se centra en transformar datos crudos y "sucios" en un dataset confiable para la toma de decisiones estratégicas.
+# 📊 EverPeak Retail Analysis | Data Cleaning & Business Insights
 
-🎯 Objetivo del Proyecto
-El dataset everpeak_retail simula un entorno real de retail con 2,000 órdenes que presentan:
+Proyecto de análisis de datos enfocado en la **limpieza, transformación y exploración de datos (EDA)** dentro de un entorno simulado de retail, con el objetivo de generar **insights accionables para la toma de decisiones estratégicas**.
 
-Problemas de Calidad: Valores faltantes, centinelas y duplicados.
+---
 
-Anomalías: Outliers estadísticos y lógicos.
+## 🚀 Resumen Profesional
 
-Meta: Construir un pipeline de limpieza reproducible y generar insights accionables para el equipo de Estrategia e Integración.
+En este proyecto desarrollé un flujo completo de análisis de datos, abordando problemas reales de calidad como valores nulos, inconsistencias y outliers.  
 
-🛠️ Stack Tecnológico
-Lenguaje: Python 3.x
+Se construyó un **pipeline reproducible de limpieza y análisis**, transformando datos crudos en información confiable para el negocio.
 
-Librerías principales: Pandas, NumPy (limpieza), Matplotlib, Seaborn (visualización).
+---
 
-Entorno: Jupyter Notebooks / Google Colab.
+## 🎯 Objetivos del Proyecto
 
-📂 Estructura del Repositorio
-Bash
-├── data/                   # Dataset original y procesado
-├── notebooks/
-│   └── everpeak_analysis.ipynb  # Notebook principal de análisis
-└── README.md               # Documentación del proyecto
-🚀 Cómo Ejecutar el Análisis
-Opción 1: Google Colab (Recomendado)
-Puedes ejecutar el análisis directamente en la nube sin configurar un entorno local:
+- Detectar y corregir problemas de calidad de datos  
+- Estandarizar y preparar el dataset para análisis  
+- Identificar patrones de comportamiento en clientes  
+- Generar insights orientados a negocio  
 
-Opción 2: Entorno Local
-Clona este repositorio:
+---
 
-Bash
+## 🛠️ Tecnologías Utilizadas
+
+- **Python 3**
+- **Pandas & NumPy** → limpieza y transformación de datos  
+- **Matplotlib & Seaborn** → visualización  
+- **Jupyter Notebook / Google Colab**  
+
+---
+
+🧠 Metodología
+🔍 1. Exploración de Datos (EDA)
+Análisis de estructura y tipos de datos
+Estadísticas descriptivas
+Identificación de inconsistencias
+🧹 2. Limpieza de Datos
+Tratamiento de valores nulos
+Eliminación de duplicados
+Corrección de valores inválidos (ej: -999, '?')
+Conversión de tipos de datos
+📊 3. Análisis de Outliers
+Uso de IQR y Z-score
+Evaluación del impacto en métricas clave
+⚙️ 4. Feature Engineering
+Creación de variables derivadas
+Segmentación de clientes
+📈 5. Visualización
+Distribución de variables
+Análisis de comportamiento
+Identificación de patrones
+📊 Resultados Clave
+Se detectaron múltiples problemas de calidad que afectaban el análisis
+Se logró transformar el dataset en una fuente confiable
+Se identificaron patrones de consumo y segmentación de clientes
+Los outliers tenían impacto directo en métricas del negocio
+💡 Insights de Negocio
+Existen segmentos diferenciados de clientes según su comportamiento
+La calidad de datos influye directamente en la toma de decisiones
+Se pueden aplicar estrategias de segmentación para mejorar ventas
+🧩 Valor Profesional
+
+Este proyecto evidencia competencias clave como:
+
+✔ Limpieza y preparación de datos (Data Wrangling)
+✔ Análisis exploratorio (EDA)
+✔ Visualización de datos
+✔ Pensamiento analítico orientado a negocio
+✔ Desarrollo de pipelines reproducibles
+
+📌 Cómo Ejecutar
 git clone https://github.com/tu-usuario/nombre-repo.git
-Instala las dependencias:
-
-Bash
 pip install pandas numpy matplotlib seaborn
-Ejecuta el archivo en notebooks/everpeak_analysis.ipynb.
+jupyter notebook
+👨‍💻 Autor
 
-🧠 Metodología Aplicada
-Exploración Inicial (EDA): Identificación de tipos de datos y estadísticas descriptivas.
-
-Limpieza de Datos: Tratamiento de valores nulos y estandarización de columnas.
-
-Análisis de Outliers: Uso de métodos estadísticos (IQR/Z-score) para detectar valores atípicos.
-
-Visualización: Distribución de ventas, comportamiento de clientes y frecuencias.
+Luis Cadme
+📊 Data Analyst en formación | Enfocado en transformar datos en decisiones
